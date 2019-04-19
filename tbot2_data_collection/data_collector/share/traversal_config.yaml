@@ -10,7 +10,7 @@ start_point: hall2_adjacent_rm212_collaboration_room
 
 # topics: ['/camera/depth/image_raw', '/usb_cam/image_raw', '/amcl_pose']   # usb_cam for logitech external camera
 # topics: ['/camera/depth/image_raw', '/camera/rgb/image_raw', '/amcl_pose'] #topics without extra data collected for semantic mapping
-topics: ['/camera/depth/image_raw', '/camera/rgb/image_raw', '/amcl_pose', '/people_tracker_measurements', 
+topics: ['/camera/depth/image_raw', '/camera/rgb/image_raw', '/usb_cam/image_raw', '/amcl_pose', '/people_tracker_measurements', 
           '/audio', '/particlecloud', '/move_base/global_costmap/costmap', '/scan' ] #all topics collected for semantic mapping
 # topics = ['/odom', '/clock']  # available in gazebo
 
